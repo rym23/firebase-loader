@@ -1,6 +1,5 @@
 import json
 import random
-import uuid
 
 my_dict = {}
 json_file = open('data.json', 'w')
