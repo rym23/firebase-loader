@@ -5,7 +5,7 @@ const data = require('./' + process.argv[0]);
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://wager-a1aff.firebaseio.com"
+    databaseURL: "https://your.firebasedb.url"
 });
 
 /**
